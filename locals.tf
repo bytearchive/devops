@@ -1,6 +1,6 @@
 locals {
   kubernetes_version     = "v1.27.3"
-  cluster_name           = "YOUR_CLUSTER_NAME"
+  cluster_name           = "devops-cluster"
   base_domain            = format("%s.nip.io", replace(module.traefik.external_ip, ".", "-"))
   cluster_issuer         = "ca-issuer"
   enable_service_monitor = false # Can be enabled after the first bootstrap.
