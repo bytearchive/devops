@@ -73,11 +73,11 @@ module "oidc" {
   cluster_issuer = local.cluster_issuer
 
   user_map = {
-    YOUR_USERNAME = {
-      username   = "YOUR_USERNAME"
-      email      = "YOUR_EMAIL"
-      first_name = "YOUR_FIRST_NAME"
-      last_name  = "YOUR_LAST_NAME"
+    jon = {
+      username   = "jon"
+      email      = "jon@example.com"
+      first_name = "jon"
+      last_name  = "jon"
     },
   }
 
