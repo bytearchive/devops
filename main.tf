@@ -115,7 +115,7 @@ module "loki-stack" {
 
   app_autosync = local.app_autosync
 
-  distributed_mode = true
+  #distributed_mode = true
 
   logs_storage = {
     bucket_name = local.minio_config.buckets.0.name
