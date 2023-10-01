@@ -1,6 +1,8 @@
 # Local .terraform directories
 **/.terraform/*
 
+devops-cluster-config
+
 .terraform.lock.hcl
 
 # .tfstate files

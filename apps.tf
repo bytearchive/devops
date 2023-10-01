@@ -50,12 +50,12 @@ module "helloworld_apps" {
               domain: "${local.base_domain}"
               issuer: "${local.cluster_issuer}"
             apps:
-              keycloak: true
+              keycloak: false
               traefik: false
-              minio: true
-              grafana: true
-              prometheus: true
-              thanos: true
+              minio: false
+              grafana: false
+              prometheus: false
+              thanos: false
           EOT
         }
       }
